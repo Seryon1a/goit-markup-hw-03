@@ -38,7 +38,7 @@ img {
   align-items: center;
 }
 
-.header-item {
+.menu-nav {
   display: flex;
   gap: 40px;
 }
@@ -48,9 +48,7 @@ img {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  margin-top: 24px;
-  margin-left: 156px;
-  margin-right: 76px;
+  padding: 24px 0;
 
   /* line-height: 21px; */
   line-height: 1.17;
@@ -69,6 +67,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+}
+
+.contacts-item {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-link {
@@ -90,7 +93,7 @@ img {
   color: #404bbf;
 }
 
-.Contacts {
+.contacts {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
