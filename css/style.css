@@ -14,8 +14,33 @@ ol {
   list-style-type: none;
 }
 
+img {
+  display: block;
+}
+
 .header {
   background-color: #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-item {
+  display: flex;
+  gap: 40px;
 }
 
 /* logo */
@@ -63,10 +88,6 @@ ol {
 
 .nav-link:focus {
   color: #404bbf;
-}
-
-.header-item {
-  margin: 24px 0;
 }
 
 .Contacts {
