@@ -25,12 +25,17 @@ img {
   font-size: 56px;
   max-width: 496px;
   width: 1158px;
+  padding: 188px 0;
 
   /* line-height: 60px; */
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+}
+
+.item {
+  display: flex;
 }
 
 .header {
@@ -143,6 +148,10 @@ img {
 
 .btn:focus {
   background-color: #404bbf;
+}
+
+.second-section {
+  padding: 120px 0;
 }
 
 .subtitle {
