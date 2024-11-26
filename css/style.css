@@ -61,12 +61,7 @@ img {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-
-  /* line-height: 21px; */
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
+  margin-right: 76px;
 }
 
 .contacts-item {
@@ -106,10 +101,11 @@ img {
 }
 
 /* title */
-.caption {
+.container {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 56px;
+  max-width: 496px;
 
   /* line-height: 60px; */
   line-height: 1.07;
@@ -126,6 +122,12 @@ img {
   cursor: pointer;
   background: #4d5ae5;
   color: #fff;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -216,6 +218,7 @@ h3 {
 .title {
   background-color: #2e2f42;
   color: #fff;
+  padding: 188px 0;
 }
 
 /* section */
