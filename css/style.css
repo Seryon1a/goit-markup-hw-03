@@ -184,7 +184,7 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 36px;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 
   /* line-height: 40px; */
   line-height: 1.11;
@@ -196,6 +196,10 @@ h3 {
 
 .item {
   background: #fff;
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-item {
@@ -223,6 +227,10 @@ h3 {
 
 .team-section {
   padding: 120px 0;
+}
+
+.team-contriner {
+  padding: 32px 0;
 }
 
 .subtitle {
