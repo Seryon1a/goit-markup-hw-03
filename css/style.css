@@ -44,6 +44,9 @@ h3 {
 
 .header-div {
   display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .header-nav {
@@ -137,7 +140,6 @@ h3 {
   font-weight: 500;
   font-size: 56px;
   max-width: 496px;
-  width: 1158px;
   padding: 188px 0;
 
   /* line-height: 60px; */
