@@ -134,6 +134,10 @@ img {
   padding: 188px 0;
 }
 
+.caption {
+  max-width: 496px;
+}
+
 .btn {
   font-family: "Roboto" sans-serif;
   font-weight: 500;
@@ -189,6 +193,7 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 36px;
+  margin-bottom: 8px;
 
   /* line-height: 40px; */
   line-height: 1.11;
@@ -200,6 +205,12 @@ img {
 
 .item {
   background: #fff;
+}
+
+.section-item {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .heading {
