@@ -94,6 +94,7 @@ img {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  padding: 24px 0;
 
   /* line-height: 24px; */
   line-height: 1.5;
@@ -124,6 +125,13 @@ img {
 .item-address {
   display: flex;
   gap: 40px;
+}
+
+/* section */
+.title {
+  background-color: #2e2f42;
+  color: #fff;
+  padding: 188px 0;
 }
 
 .btn {
@@ -228,13 +236,6 @@ p {
 
 h3 {
   font-size: 20px;
-}
-
-/* section */
-.title {
-  background-color: #2e2f42;
-  color: #fff;
-  padding: 188px 0;
 }
 
 /* section */
