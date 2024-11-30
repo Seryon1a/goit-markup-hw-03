@@ -47,12 +47,12 @@ h3 {
   width: 1158px;
   margin: 0 auto;
   padding: 0px 15px;
-  gap: 40px;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .nav-link:hover {
