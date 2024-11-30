@@ -88,11 +88,13 @@ h3 {
 .item {
   display: flex;
   width: calc((100% - 72px) / 4);
+  gap: 40px;
 }
 
 .menu {
   margin-bottom: 8px;
   display: flex;
+  gap: 40px;
 }
 
 .nav-link {
