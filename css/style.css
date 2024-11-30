@@ -88,7 +88,6 @@ h3 {
 
 .item {
   display: flex;
-  width: calc((100% - 72px) / 4);
   gap: 40px;
 }
 
@@ -254,6 +253,10 @@ h3 {
 .team-list {
   display: flex;
   gap: 24px;
+}
+
+.photo {
+  width: calc((100% - 72px) / 4);
 }
 
 .heading {
