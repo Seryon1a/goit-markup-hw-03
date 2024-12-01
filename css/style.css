@@ -1,6 +1,6 @@
 /* font-family: "Roboto", serif;
 font-family: "Raleway", serif; */
-
+/* ragion Base */
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -9,13 +9,18 @@ body {
   color: #434455;
 }
 
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block; /* Убирает возможные пробелы под изображением */
+  max-width: 100%; /* Для адаптивности */
+  height: auto; /* Для сохранения пропорций */
+}
+
 ul,
 ol {
   list-style-type: none;
-}
-
-img {
-  display: block;
 }
 
 a {
@@ -203,7 +208,6 @@ h3 {
   background: #fff;
   display: flex;
   gap: 24px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .section-item {
@@ -241,7 +245,6 @@ h3 {
   font-weight: 500;
   font-size: 20px;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 
   /* line-height: 24px; */
   line-height: 1.2;
@@ -253,9 +256,6 @@ h3 {
 .team-list {
   display: flex;
   gap: 24px;
-}
-
-.photo {
   width: calc((100% - 72px) / 4);
 }
 
@@ -307,6 +307,7 @@ h3 {
   column-gap: 24px;
   row-gap: 48px;
   margin-bottom: 8px;
+  width: calc((100% - 48px) / 3);
 }
 
 /* footer */
