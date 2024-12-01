@@ -21,6 +21,8 @@ img {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 a {
@@ -40,11 +42,6 @@ h3 {
   font-size: 20px;
 }
 
-.li {
-  margin: 0;
-  padding: 0;
-}
-
 /* header */
 
 .header {
@@ -61,7 +58,6 @@ h3 {
 }
 
 .header-nav {
-  display: flex;
   align-items: center;
   gap: 40px;
 }
@@ -126,11 +122,11 @@ h3 {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+/* 
 .item-address {
-  display: flex;
-  gap: 40px;
-}
+
+} 
+*/
 
 .contacts-item {
   display: flex;
@@ -206,9 +202,6 @@ h3 {
 
 .item {
   background: #fff;
-  display: flex;
-  gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .photo {
@@ -257,11 +250,16 @@ h3 {
   text-transform: capitalize;
   color: #2e2f42;
 }
-
+/* 
 .team-list {
   display: flex;
   gap: 24px;
   width: calc((100% - 72px) / 4);
+} */
+
+.team-item {
+  display: flex;
+  gap: 24px;
 }
 
 .heading {
@@ -288,14 +286,17 @@ h3 {
 /* section */
 
 .portfolio-item {
-  display: flex;
+  /* display: flex; */
+
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-/* 
+
 .our-port-items {
-} */
+  display: flex;
+  gap: 24px;
+}
 
 .portfolio {
   padding: 32px 16px;
@@ -311,12 +312,6 @@ h3 {
   column-gap: 24px;
   row-gap: 48px;
   margin-bottom: 8px;
-}
-
-.our-port-items {
-  display: flex;
-  gap: 24px;
-  width: calc((100% - 48px) / 3);
 }
 
 /* footer */
