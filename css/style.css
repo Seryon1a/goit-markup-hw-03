@@ -41,6 +41,7 @@ p {
 h3 {
   font-size: 20px;
 }
+/* endregion */
 
 /* header */
 
@@ -58,6 +59,7 @@ h3 {
 }
 
 .header-nav {
+  display: flex;
   align-items: center;
   gap: 40px;
 }
@@ -72,16 +74,9 @@ h3 {
 
 /* logo */
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  padding: 24px 0;
   margin-right: 76px;
-
-  /* line-height: 21px; */
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  display: flex;
+  gap: 40px;
   color: #4d5ae5;
 }
 
@@ -99,15 +94,7 @@ h3 {
 }
 
 .nav-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
   padding: 24px 0;
-  gap: 40px;
-
-  /* line-height: 24px; */
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -116,10 +103,6 @@ h3 {
   font-weight: 400;
   font-size: 16px;
   font-style: normal;
-
-  /* line-height: 24px; */
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 /* 
@@ -128,7 +111,7 @@ h3 {
 } 
 */
 
-.contacts-item {
+.item-address {
   display: flex;
   gap: 40px;
 }
@@ -144,11 +127,6 @@ h3 {
   max-width: 496px;
 }
 .btn {
-  font-family: "Roboto" sans-serif;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
   background: #4d5ae5;
   color: #fff;
   display: block;
@@ -174,16 +152,7 @@ h3 {
 }
 
 .subject {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 36px;
   margin-bottom: 72px;
-
-  /* line-height: 40px; */
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -202,15 +171,14 @@ h3 {
 
 .item {
   background: #fff;
-}
-
-.photo {
-  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  gap: 24px;
 }
 
 .section-item {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .list {
@@ -230,40 +198,24 @@ h3 {
   background-color: #f4f4fd;
 }
 
-.team-section {
-  padding: 120px 0;
-}
-
 .team-contriner {
   padding: 32px 0;
 }
 
 .subtitle {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
   margin-bottom: 8px;
-
-  /* line-height: 24px; */
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
 }
-/* 
+
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
-} */
-
-.team-item {
-  display: flex;
-  gap: 24px;
 }
 
-.heading {
-  text-align: center;
+.team-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .list {
@@ -286,33 +238,30 @@ h3 {
 /* section */
 
 .portfolio-item {
-  /* display: flex; */
-
+  display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
 .our-port-items {
-  display: flex;
-  gap: 24px;
+  width: calc((100% - 48px) / 3);
 }
 
-.portfolio {
+.portfolio-cont {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  padding: 32px 16px;
 }
-
+/* 
 .items {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
   margin-bottom: 8px;
-}
+} */
 
 /* footer */
 
