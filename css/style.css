@@ -243,8 +243,11 @@ h3 {
   column-gap: 24px;
   row-gap: 48px;
 }
-
+/* 
 .our-port-items {
+} */
+
+.cont-block {
   width: calc((100% - 48px) / 3);
 }
 
